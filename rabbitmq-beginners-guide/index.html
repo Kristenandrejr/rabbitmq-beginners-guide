@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RabbitMQ Beginner's Guide</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fafafa; margin: 40px;">
+    <h1 style="color: #ff6600;">🐇 RabbitMQ Beginner's Guide</h1>
+    <p>This simple project shows how to send and receive messages using <b>Python</b> and <b>RabbitMQ</b>.</p>
+
+    <h2>1. Requirements</h2>
+    <ul>
+        <li>Install RabbitMQ on your system.</li>
+        <li>Install the <code>pika</code> Python library using: <br><code>pip install pika</code></li>
+    </ul>
+
+    <h2>2. How it works</h2>
+    <p>
+        The <b>Producer</b> sends a message to a queue called <b>hello</b>.  
+        The <b>Consumer</b> listens to the same queue and prints any message it receives.
+    </p>
+
+    <h2>3. How to run</h2>
+    <ol>
+        <li>Open two terminal windows.</li>
+        <li>In the first, run: <code>python consumer.py</code></li>
+        <li>In the second, run: <code>python producer.py</code></li>
+        <li>Watch your consumer print the received message!</li>
+    </ol>
+
+    <p>That's it — a simple start to understanding RabbitMQ queues in Python.</p>
+
+    <hr>
+    <p style="color: gray; font-size: 14px;">Created by Christian Edeh</p>
+</body>
+</html>
